@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   createClockSync,
+  MeshNameInput,
   useCommitRevealHook,
   useNamedPeer,
   type MeshConfig,
@@ -92,15 +93,13 @@ function Body({ room, config }: { room: YRoom; config: MeshConfig }) {
         </p>
       </header>
 
-      <div className="capsule-name">
-        <input
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          placeholder="your name"
-          maxLength={48}
-          aria-label="your name"
-        />
-      </div>
+      <MeshNameInput
+        value={name}
+        onChange={setName}
+        placeholder="your name"
+        maxLength={48}
+        className="capsule-name"
+      />
 
       {cr.status === "idle" && (
         <div className="capsule-form">
