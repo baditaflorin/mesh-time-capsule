@@ -1,7 +1,7 @@
 # mesh-time-capsule
 
 [![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-time-capsule-7faaff)](https://baditaflorin.github.io/mesh-time-capsule/)
-[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/baditaflorin/mesh-time-capsule/blob/main/package.json)
+[![version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/baditaflorin/mesh-time-capsule/blob/main/package.json)
 [![license](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 > Write a note, set an unlock time, reveal in the future. Commit-reveal sealed.
